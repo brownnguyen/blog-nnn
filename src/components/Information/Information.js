@@ -10,7 +10,9 @@ export default class Information extends Component {
                     </h3>
                     <div className="information-content">
                         <div className="content-first">
-                            111
+                            <h4 className="info-title">
+                                Alert situations? We have a special emergency line to communicate with our department.
+                            </h4>
                         </div>
                         <div className="content color-1">
                             <h4 className="info-title">

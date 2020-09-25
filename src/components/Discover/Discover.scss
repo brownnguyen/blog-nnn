@@ -1,0 +1,40 @@
+@import "../../Scss/Variables.scss";
+.discover-content {
+  display: flex;
+  justify-content: space-between;
+  .content:first-of-type {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $black-1;
+    .detail {
+      padding: 0 50px;
+      .title-h3 {
+        font-size: 7rem;
+        color: $white;
+        margin-bottom: 20px;
+        span {
+          font-size: 1.8rem;
+          color: $grey;
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
+    }
+    .text {
+      color: $grey-1;
+      margin-bottom: 50px;
+    }
+    .name-discover {
+      font-size: 2.4rem;
+    }
+  }
+  .content:last-of-type {
+    width: 70%;
+    padding: 40px 0;
+    img {
+      width: 100%;
+    }
+  }
+}

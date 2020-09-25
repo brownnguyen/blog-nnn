@@ -21,7 +21,6 @@ export default class Aboutus extends Component {
                                         <p className="text">
                                             We have the most qualified firefighters in the city. Crew with over 2000 hours.
                                         </p>
-
                                     </div>
                                     <div className="details-block">
                                         <i class="fab fa-battle-net about-icon"></i>
