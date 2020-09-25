@@ -1,0 +1,33 @@
+@import "../../Scss/Variables.scss";
+header.header {
+  padding: 30px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  .header-main {
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    .title-page {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .header-content {
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        li {
+          display: inline-block;
+          .header__link {
+            padding: 10px 20px;
+            text-transform: uppercase;
+            color: $white;
+            text-shadow: 1px 1px rgba(0, 0, 0, 0.75);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import "../../Scss/Variables.scss";
+.aboutus {
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    .content {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .main-content {
+        padding: 20px;
+        // h3.title{
+        //     margin-bottom: 30px;
+        // }
+      }
+      .detail {
+        display: flex;
+        justify-content: space-between;
+        .details-block {
+          padding: 0 10px;
+        }
+        .about-icon {
+          margin: 20px 0;
+          font-size: 5rem;
+          display: block;
+          color: $orange;
+        }
+      }
+    }
+  }
+}
