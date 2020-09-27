@@ -17,13 +17,13 @@ export default class Aboutus extends Component {
                                 </h3>
                                 <div className="detail">
                                     <div className="details-block">
-                                        <i class="fab fa-studiovinari about-icon"></i>
+                                        <i className="fab fa-studiovinari about-icon"></i>
                                         <p className="text">
                                             We have the most qualified firefighters in the city. Crew with over 2000 hours.
                                         </p>
                                     </div>
                                     <div className="details-block">
-                                        <i class="fab fa-battle-net about-icon"></i>
+                                        <i className="fab fa-battle-net about-icon"></i>
                                         <p className="text">
                                             Alert situations? We have a special emergency line to communicate with our department.
                                         </p>

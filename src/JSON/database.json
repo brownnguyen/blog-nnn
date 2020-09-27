@@ -1,24 +1,112 @@
 {
-    "header": [
-        {
-            "title": "home",
-            "to": ""
+    "data": {
+        "mainTopic": {
+            "header": [
+                {
+                    "title": "home",
+                    "to": ""
+                },
+                {
+                    "title": "travel",
+                    "to": "travel"
+                },
+                {
+                    "title": "dance",
+                    "to": "dance"
+                },
+                {
+                    "title": "blog",
+                    "to": "blog"
+                },
+                {
+                    "title": "about",
+                    "to": "about"
+                }
+            ],
+            "dancingteam": [
+                {
+                    "subject": "Sgu Warriors",
+                    "title": "Sgu Warriors",
+                    "details": "Team Sgu warriors được lập để tham gia giải VUG-Viet Nam University games giữa các trường đại học",
+                    "img": "./images/Vug/img-vug-6.jpg"
+                },
+                {
+                    "subject": "Thủ Đức United",
+                    "title": "Thủ Đức United",
+                    "details": "Mình đã tham gia bộ môn breaking cũng khá lâu và là một trong những thành viên của nhóm Thủ Đức United",
+                    "img": "./images/tdu/img-tdu-1.jpg"
+                }
+            ]
         },
-        {
-            "title": "travel",
-            "to": "travel"
-        },
-        {
-            "title": "dance",
-            "to": "dance"
-        },
-        {
-            "title": "blog",
-            "to": "blog"
-        },
-        {
-            "title": "about",
-            "to": "about"
+        "danceTopic": {
+            "vug": [
+                {
+                    "img": "./images/Vug/img-vug-2.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-3.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-4.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-5.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-6.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-7.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-8.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-9.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-10.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-11.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-12.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-13.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-14.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-15.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-16.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-17.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-18.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-19.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-20.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-21.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-22.jpg"
+                },
+                {
+                    "img": "./images/Vug/img-vug-23.jpg"
+                }
+            ]
         }
-    ]
+    }
 }

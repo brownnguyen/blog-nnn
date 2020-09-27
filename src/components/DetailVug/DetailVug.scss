@@ -1,0 +1,17 @@
+.detailVug {
+    .vug-content {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        .content {
+            width: 25%;
+            overflow: hidden;
+            padding: 10px;
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 250px;
+            }
+        }
+    }
+}

@@ -9,13 +9,13 @@ export default class Discover extends Component {
                     <div className="content">
                         <div className="detail">
                             <h3 className="title-h3">
-                                <span>Discover</span>
-                                NNN
+                                <span>Crew</span>
+                                THỦ ĐỨC UNITED
                             </h3>
                             <p className="text">
                                 A small river named Duden flows by their place and supplies it with the necessary regelialia. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                             </p>
-                            <span className="name-discover">NNN</span>
+                            <span className="name-discover">Xem thêm</span>
                         </div>
                     </div>
                     <div className="content">
