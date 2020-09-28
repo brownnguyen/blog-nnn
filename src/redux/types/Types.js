@@ -1,0 +1,6 @@
+export const FETCH__DANCE__REQUEST = "FETCH__DANCE__REQUEST";
+
+export const FETCH__MAINTOPIC__REQUEST = "FETCH__MAINTOPIC__REQUEST";
+
+export const PUSH__ID__DANCE = "PUSH__ID__DANCE";
+

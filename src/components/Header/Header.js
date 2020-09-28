@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import './Header.scss';
 import { NavLink } from 'react-router-dom';
-import data from '../../JSON/database.json';
-export default class Header extends Component {
+import { header } from '../../constants/Constants';
+import { connect } from 'react-redux';
+class Header extends Component {
     renderHeader = () => {
-        return data.header?.map((link, index) => {
+        return header.map((link, index) => {
             return (
                 <li key={index}>
                     <NavLink className="header__link"
@@ -35,3 +36,7 @@ export default class Header extends Component {
         )
     }
 }
+const mapStateToProps = (state) => ({
+    link: state.MainTopicReducer.mainTopic.header
+})
+export default connect(mapStateToProps)(Header);

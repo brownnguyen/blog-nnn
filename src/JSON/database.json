@@ -1,112 +1,264 @@
 {
-    "data": {
-        "mainTopic": {
-            "header": [
-                {
-                    "title": "home",
-                    "to": ""
-                },
-                {
-                    "title": "travel",
-                    "to": "travel"
-                },
-                {
-                    "title": "dance",
-                    "to": "dance"
-                },
-                {
-                    "title": "blog",
-                    "to": "blog"
-                },
-                {
-                    "title": "about",
-                    "to": "about"
-                }
-            ],
-            "dancingteam": [
-                {
-                    "subject": "Sgu Warriors",
-                    "title": "Sgu Warriors",
-                    "details": "Team Sgu warriors được lập để tham gia giải VUG-Viet Nam University games giữa các trường đại học",
-                    "img": "./images/Vug/img-vug-6.jpg"
-                },
-                {
-                    "subject": "Thủ Đức United",
-                    "title": "Thủ Đức United",
-                    "details": "Mình đã tham gia bộ môn breaking cũng khá lâu và là một trong những thành viên của nhóm Thủ Đức United",
-                    "img": "./images/tdu/img-tdu-1.jpg"
-                }
-            ]
+    "data": [
+        {
+            "mainTopic": {
+                "header": [
+                    {
+                        "title": "home",
+                        "to": ""
+                    },
+                    {
+                        "title": "travel",
+                        "to": "travel"
+                    },
+                    {
+                        "title": "dance",
+                        "to": "dance"
+                    },
+                    {
+                        "title": "blog",
+                        "to": "blog"
+                    },
+                    {
+                        "title": "about",
+                        "to": "about"
+                    }
+                ],
+                "dancingteam": [
+                    {
+                        "id": "vugid",
+                        "subject": "Sgu Warriors",
+                        "title": "Sgu Warriors",
+                        "details": "Team Sgu warriors được lập để tham gia giải VUG-Viet Nam University games giữa các trường đại học",
+                        "img": "./images/Vug/img-vug-6.jpg"
+                    },
+                    {
+                        "id": "thuducid",
+                        "subject": "Thủ Đức United",
+                        "title": "Thủ Đức United",
+                        "details": "Mình đã tham gia bộ môn breaking cũng khá lâu và là một trong những thành viên của nhóm Thủ Đức United",
+                        "img": "./images/thuduc/img-tdu-1.jpg"
+                    }
+                ]
+            }
         },
-        "danceTopic": {
-            "vug": [
+        {
+            "danceTopic": [
                 {
-                    "img": "./images/Vug/img-vug-2.jpg"
+                    "danceContent": {
+                        "id": "vugid",
+                        "title": "These images are about Sgu Warriors team 2014",
+                        "images": [
+                            {
+                                "img": "./images/Vug/img-vug-2.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-3.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-4.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-5.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-6.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-7.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-8.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-9.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-10.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-11.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-12.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-13.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-14.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-15.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-16.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-17.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-18.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-19.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-20.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-21.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-22.jpg"
+                            },
+                            {
+                                "img": "./images/Vug/img-vug-23.jpg"
+                            }
+                        ]
+                    }
                 },
                 {
-                    "img": "./images/Vug/img-vug-3.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-4.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-5.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-6.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-7.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-8.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-9.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-10.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-11.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-12.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-13.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-14.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-15.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-16.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-17.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-18.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-19.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-20.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-21.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-22.jpg"
-                },
-                {
-                    "img": "./images/Vug/img-vug-23.jpg"
+                    "danceContent": {
+                        "id": "thuducid",
+                        "title": "These images are about TDU",
+                        "images": [
+                            {
+                                "img": "./images/thuduc/img-thuduc-2.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-3.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-4.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-5.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-6.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-7.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-8.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-9.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-10.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-11.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-12.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-13.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-14.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-15.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-16.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-17.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-18.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-19.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-20.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-21.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-22.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-23.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-24.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-25.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-26.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-27.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-28.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-29.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-30.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-31.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-32.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-33.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-34.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-35.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-36.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-37.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-38.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-39.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-40.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-41.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-42.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-43.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-44.jpg"
+                            },
+                            {
+                                "img": "./images/thuduc/img-thuduc-45.jpg"
+                            }
+                        ]
+                    }
                 }
             ]
         }
-    }
+    ]
 }
