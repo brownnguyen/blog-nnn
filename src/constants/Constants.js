@@ -20,3 +20,6 @@ export const header = [
         "to": "about"
     }
 ]
+export const inforContent = [
+    'travel', 'dance', 'blog', 'travel', 'dance', 'blog'
+]

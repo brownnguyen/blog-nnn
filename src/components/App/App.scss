@@ -33,3 +33,32 @@ h3.title {
 p.text {
   line-height: 30px;
 }
+.btn-seeMore {
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 12px 0;
+  width: 100%;
+  max-width: 280px;
+  font-weight: bold;
+  border: 2px solid $green-1;
+  position: relative;
+  transition: $eo;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    background-color: $green-1;
+    transition: $eo;
+  }
+  &:hover {
+    color: $white;
+    &:before {
+      width: 100%;
+    }
+  }
+}

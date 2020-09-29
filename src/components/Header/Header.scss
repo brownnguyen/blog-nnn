@@ -5,6 +5,8 @@ header.header {
   top: 0;
   left: 0;
   width: 100%;
+  margin: auto;
+  z-index: 1030;
   .header-main {
     // display: flex;
     // justify-content: space-between;
@@ -21,6 +23,7 @@ header.header {
         li {
           display: inline-block;
           .header__link {
+            cursor: pointer;
             padding: 10px 20px;
             text-transform: uppercase;
             color: $white;

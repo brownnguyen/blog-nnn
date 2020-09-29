@@ -6,10 +6,9 @@ import { PUSH__ID__DANCE } from '../../redux/types/Types';
 import './DancingTeam.scss';
 class DancingTeam extends Component {
     renderDispatch = (id) => {
-        this.props.dispatch(CreateAction(PUSH__ID__DANCE, id))
+        this.props.dispatch(CreateAction(PUSH__ID__DANCE, { id: id }))
     }
     renderDancingContent = () => {
-        console.log(this.props.dancingteam)
         let xhtml = null;
         if (this.props.dancingteam) {
             xhtml = this.props.dancingteam?.map((item, index) => {

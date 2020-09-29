@@ -5,6 +5,7 @@ import Discover from '../../components/Discover/Discover'
 import Information from '../../components/Information/Information'
 import TopTitle from '../../components/TopTitle/TopTitle'
 import DanceDetail from '../../components/DanceDetail/DanceDetail'
+import TravelMain from '../../components/TravelMain/TravelMain'
 export default class Home extends Component {
     render() {
         return (
@@ -15,6 +16,7 @@ export default class Home extends Component {
                 <Information />
                 <DancingTeam/>
                 <DanceDetail/>
+                <TravelMain/>
             </>
         )
     }

@@ -228,5 +228,37 @@
                 }
             ]
         }
+    ],
+    "travelTopic": [
+        {
+            "id": "travel01",
+            "title": "Singapore Trip",
+            "images": "./images/travel/img-singapore-1.jpg"
+        },
+        {
+            "id": "travel02",
+            "title": "DaLas Trip",
+            "images": "./images/travel/img-dalas-1.jpg"
+        },
+        {
+            "id": "travel03",
+            "title": "Đà Nẵng Trip",
+            "images": "./images/travel/img-danang-1.jpg"
+        },
+        {
+            "id": "travel04",
+            "title": "Nha Trang Trip",
+            "images": "./images/travel/img-nhatrang-1.jpg"
+        },
+        {
+            "id": "travel05",
+            "title": "Phan Thiet Trip",
+            "images": "./images/travel/img-phanthiet-1.jpg"
+        },
+        {
+            "id": "travel06",
+            "title": "Bình Thuận Trip",
+            "images": "./images/travel/img-binhthuan-1.jpg"
+        }
     ]
 }

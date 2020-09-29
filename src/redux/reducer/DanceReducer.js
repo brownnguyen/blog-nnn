@@ -2,7 +2,7 @@ import { FETCH__DANCE__REQUEST, PUSH__ID__DANCE } from "../types/Types";
 
 const initialState = {
     listDanceContent: [],
-    idDance: null
+    idDance: {}
 }
 export const DanceReducer = (state = initialState, action) => {
     let { type, payload } = action;
@@ -13,6 +13,7 @@ export const DanceReducer = (state = initialState, action) => {
         }
         case PUSH__ID__DANCE: {
             state.idDance = payload;
+            localStorage.setItem('idDance', JSON.stringify(state.idDance));
             return { ...state }
         }
         default:

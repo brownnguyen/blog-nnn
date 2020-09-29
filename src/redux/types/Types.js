@@ -4,3 +4,5 @@ export const FETCH__MAINTOPIC__REQUEST = "FETCH__MAINTOPIC__REQUEST";
 
 export const PUSH__ID__DANCE = "PUSH__ID__DANCE";
 
+export const FETCH__TRAVEL__REQUEST = "FETCH__TRAVEL__REQUEST";
+

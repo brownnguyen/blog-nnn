@@ -1,0 +1,57 @@
+@import "../../Scss/Variables.scss";
+.travelTopic {
+  .travel-content {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .content {
+      width: 50%;
+      position: relative;
+      &:before {
+        content: "";
+        transition: $eo;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        z-index: 9;
+        background-color: rgba(59, 96, 109, 0.639);
+      }
+      .title-text {
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: $white;
+        opacity: 0;
+        transition: $eo;
+      }
+      .img {
+        overflow: hidden;
+        img {
+          height: 350px;
+          transition: 5s ease-in-out;
+        }
+      }
+      &:hover {
+          &:before{
+              opacity: 1;
+          }
+          .title-text{
+              opacity: 1;
+          }
+        .img {
+          img {
+            transform: scale(2);
+          }
+        }
+      }
+    }
+  }
+}

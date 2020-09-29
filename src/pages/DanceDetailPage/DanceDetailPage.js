@@ -4,18 +4,18 @@ import './DanceDetailPage.scss';
 class DanceDetailPage extends Component {
     renderDanceDetail = () => {
         let { idDance, listDance } = this.props;
-        console.log(this.props.idDance, this.props.listDance)
-        const position = listDance.findIndex(item => item.id === idDance)
-        console.log(position)
-        console.log(listDance[position].images)
-        return listDance[position].images?.map((item, index) => {
-            return (
-                <div className="img" key={index} >
-                    <img src={item.img} />
-                </div>
-            )
-
-        })
+        const position = listDance.findIndex(item => item.id === idDance.id)
+        let xhtml = null;
+        if (position !== -1) {
+            xhtml = listDance[position].images?.map((item, index) => {
+                return (
+                    <div className="img" key={index} >
+                        <img src={item.img} />
+                    </div>
+                )
+            })
+        }
+        return xhtml;
     }
     render() {
         return (
