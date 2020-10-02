@@ -1,4 +1,54 @@
-@import '../../Scss/Variables.scss';
-.travelMain{
-    margin: 50px 0;
+@import "../../Scss/Variables.scss";
+.travelMain {
+  margin: 50px 0;
+  .img-content {
+    position: relative;
+    &:before {
+      position: absolute;
+      top: 0;
+      height: calc(100% - 80px);
+      width: 10px;
+      background-color: white;
+      left: 25%;
+      z-index: 1;
+      content: "";
+    }
+    &:after {
+      position: absolute;
+      top: 25%;
+      width: 100%;
+      left: 0;
+      height: 10px;
+      background-color: $white;
+      content: "";
+    }
+    .layer-travel {
+      &:before {
+        position: absolute;
+        top: 0;
+        height: 30%;
+        width: 30%;
+        color: $white;
+        background-color: $red;
+        left: 0;
+        z-index: 0;
+        content: "LaNg BiAnG";
+        font-family: "Montserrat", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5rem;
+        font-weight: bold;
+        font-style: italic;
+      }
+    }
+  }
+  .travel-content {
+    padding: 30px;
+    transform: translateY(-80px);
+    background-color: $white;
+  }
+  .btn-seeMore{
+    margin-top: 30px;
+  }
 }

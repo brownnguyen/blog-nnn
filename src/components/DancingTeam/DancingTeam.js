@@ -28,7 +28,12 @@ class DancingTeam extends Component {
     render() {
         return (
             <section className="dancing-team">
-                {this.renderDancingContent()}
+                <h3 className="title">
+                    CREW
+                </h3>
+                <div className="dance-content">
+                    {this.renderDancingContent()}
+                </div>
             </section>
         )
     }

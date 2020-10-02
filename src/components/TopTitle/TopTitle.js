@@ -7,15 +7,16 @@ export default class TopTitle extends Component {
             <section className="topTitle">
                 <div className="top-title-content">
                     <div className="content">
+                        <img src={imagebg} alt="hình nền" />
+                    </div>
+                    <div className="content">
                         <div className="main-content">
                             <h2 className="title">
                                 Lorem ipsum dolor sit amet tetur tetur adipis icing elit
                             </h2>
                         </div>
                     </div>
-                    <div className="content">
-                        <img src={imagebg} alt="hình nền" />
-                    </div>
+
                 </div>
             </section>
         )

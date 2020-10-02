@@ -21,5 +21,10 @@ export const header = [
     }
 ]
 export const inforContent = [
-    'travel', 'dance', 'blog', 'travel', 'dance', 'blog'
+    { title: 'travel', img: './images/info/img-info-11.jpg' },
+    { title: 'dance', img: './images/info/img-info-12.jpg' },
+    { title: 'blog', img: './images/info/img-info-13.jpg' },
+    { title: 'about', img: './images/info/img-info-15.jpg' },
+    { title: 'crew', img: './images/info/img-info-14.jpg' },
+    { title: 'awards', img: './images/info/img-info-16.jpg' }
 ]

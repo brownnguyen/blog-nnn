@@ -8,11 +8,12 @@ export default class Information extends Component {
             return (
                 <NavLink
                     key={index}
-                    to={`${item}`}
+                    to={`${item.title}`}
                     className={`content color-${index + 1}`}>
                     <h4 className="info-title">
-                        {item}
+                        {item.title}
                     </h4>
+                    <img src={item.img} alt={item.title} />
                 </NavLink>
             )
         })

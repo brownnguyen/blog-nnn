@@ -1,6 +1,8 @@
 @import "../../Scss/Variables.scss";
 .information {
   .information-content {
+    position: relative;
+    z-index: 2;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     .content-first {
@@ -19,9 +21,12 @@
         width: 100%;
         margin-bottom: 80px;
         text-transform: uppercase;
+        opacity: 1;
+        transition: $eo;
       }
     }
     .content {
+      overflow: hidden;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -29,25 +34,68 @@
       height: 280px;
       transition: $eo;
       color: $white;
+      position: relative;
+      h4.info-title {
+        text-transform: uppercase;
+        opacity: 0;
+        position: relative;
+        z-index: 2;
+        transition: $eo;
+      }
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        background-color: rgba(29, 33, 47, 0.431);
+        height: 100%;
+        transition: $eo;
+      }
+      &:after {
+        width: 100%;
+        left: 100%;
+        // transition-delay: 0.3s;
+      }
       &:hover {
         opacity: 0.8;
+        &:before {
+          width: 100%;
+        }
+        &:after {
+          left: 0;
+        }
+        h4.info-title {
+          opacity: 1;
+        }
+        img {
+          transform: scale(1.5);
+        }
+      }
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: 5s ease-in-out;
       }
     }
-    .color-1 {
-      background-color: $green;
-    }
-    .color-2 {
-      background-color: $green-1;
-    }
-    .color-3 {
-      background-color: $green-3;
-    }
-    .color-4 {
-      background-color: $green-2;
-    }
-    .color-5,
-    .color-6 {
-      background-color: $orange;
-    }
+    // .color-1 {
+    //   background-color: $green;
+    // }
+    // .color-2 {
+    //   background-color: $green-1;
+    // }
+    // .color-3 {
+    //   background-color: $green-3;
+    // }
+    // .color-4 {
+    //   background-color: $green-2;
+    // }
+    // .color-5,
+    // .color-6 {
+    //   background-color: $orange;
+    // }
   }
 }

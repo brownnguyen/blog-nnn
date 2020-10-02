@@ -3,7 +3,7 @@
   .top-title-content {
     display: flex;
     justify-content: space-between;
-    .content:first-of-type {
+    .content:last-of-type {
       width: 40%;
       display: flex;
       justify-content: flex-end;
@@ -16,14 +16,14 @@
         color: $white;
         max-width: 800px;
         padding: 30px;
-        border: 10px solid white;
+        border: 8px solid white;
       }
       .main-content {
         margin-bottom: 20%;
-        transform: translateX(30%);
+        transform: translateX(-30%);
       }
     }
-    .content:last-of-type {
+    .content:first-of-type {
       float: right;
       background-color: $deep-blue;
       width: 60%;
