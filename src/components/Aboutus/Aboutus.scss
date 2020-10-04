@@ -23,6 +23,9 @@
         justify-content: space-between;
         .details-block {
           padding: 0 5px;
+          p.text {
+            min-height: 125px;
+          }
         }
         .about-icon {
           margin: 20px 0;
@@ -31,6 +34,32 @@
           color: $orange;
         }
       }
+    }
+  }
+  .link-aboutus {
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: $blue;
+    position: relative;
+    &:hover {
+      background: linear-gradient(to bottom, #ef2368, purple);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      &::before {
+        background-image: linear-gradient(to bottom, #ef2368, purple);
+        transform: translateX(20px);
+      }
+    }
+    &:before {
+      transition: $eo;
+      content: "";
+      width: 20px;
+      height: 1px;
+      position: absolute;
+      top: 50%;
+      right: -30px;
+      background-color: $blue;
     }
   }
 }

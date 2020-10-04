@@ -1,4 +1,4 @@
-import { FETCH__TRAVEL__REQUEST } from "../types/Types";
+import { FETCH__DATA__REQUEST } from "../type/Types";
 
 const initialState = {
     travelTopics: []
@@ -6,8 +6,8 @@ const initialState = {
 export const TravelReducer = (state = initialState, action) => {
     let { type, payload } = action;
     switch (type) {
-        case FETCH__TRAVEL__REQUEST: {
-            state.travelTopics = [...payload];
+        case FETCH__DATA__REQUEST: {
+            state.travelTopics = [...payload.travelTopic];
             return { ...state }
         }
         default: return { ...state }

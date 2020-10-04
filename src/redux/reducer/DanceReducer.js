@@ -1,14 +1,19 @@
-import { FETCH__DANCE__REQUEST, PUSH__ID__DANCE } from "../types/Types";
+import { FETCH__DATA__REQUEST, PUSH__ID__DANCE } from "../type/Types";
 
 const initialState = {
     listDanceContent: [],
-    idDance: {}
+    idDance: {},
+    danceAwards: [],
+    danceInfo: {}
 }
 export const DanceReducer = (state = initialState, action) => {
     let { type, payload } = action;
     switch (type) {
-        case FETCH__DANCE__REQUEST: {
-            state.listDanceContent = [...payload];
+        case FETCH__DATA__REQUEST: {
+            console.log(payload)
+            state.listDanceContent = [...payload.danceTopic];
+            state.danceAwards = [...payload.danceAwards]
+            state.danceInfo = { ...payload.danceinFo }
             return { ...state }
         }
         case PUSH__ID__DANCE: {

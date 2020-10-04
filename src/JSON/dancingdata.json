@@ -260,5 +260,64 @@
             "title": "Bình Thuận Trip",
             "images": "./images/travel/img-binhthuan-1.jpg"
         }
+    ],
+    "danceinFo": {
+        "id": "danceInfo01",
+        "title": "Dance content info",
+        "content": [
+            {
+                "title": "Info 01 demo",
+                "img": "./images/Danceawards/img-me-1.jpg"
+            },
+            {
+                "title": "info 02 demo",
+                "img": "./images/Danceawards/img-me-2.jpg"
+            },
+            {
+                "title": "info 03 demo",
+                "img": "./images/Danceawards/img-me-3.jpg"
+            },
+            {
+                "title": "info 04 demo",
+                "img": "./images/Danceawards/img-me-4.jpg"
+            }
+        ]
+    },
+    "danceAwards": [
+        {
+            "id": "award01",
+            "title": "Award content 01",
+            "img": "./images/Danceawards/img-award-01.jpg"
+        },
+        {
+            "id": "award01",
+            "title": "Award content 02",
+            "img": "./images/Danceawards/img-award-02.jpg"
+        },
+        {
+            "id": "award01",
+            "title": "Award content 03",
+            "img": "./images/Danceawards/img-award-03.jpg"
+        },
+        {
+            "id": "award01",
+            "title": "Award content 05",
+            "img": "./images/Danceawards/img-award-05.jpg"
+        },
+        {
+            "id": "award01",
+            "title": "Award content 06",
+            "img": "./images/Danceawards/img-award-06.jpg"
+        },
+        {
+            "id": "award01",
+            "title": "Award content 07",
+            "img": "./images/Danceawards/img-award-07.jpg"
+        },
+        {
+            "id": "award01",
+            "title": "Award content 08",
+            "img": "./images/Danceawards/img-award-08.jpg"
+        }
     ]
 }

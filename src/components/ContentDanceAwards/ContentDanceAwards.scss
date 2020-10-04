@@ -1,0 +1,27 @@
+@import "../../Scss/Variables.scss";
+.ContentDanceAwards {
+    .mainContentAwards {
+        .awardsContent {
+            margin: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .content {
+                width: 50%;
+            }
+            .awardsText {
+                box-shadow: 4px 3px 14px -5px rgba(0, 0, 0, 0.75);
+                background-color: $white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h4.title {
+                    color: $blue;
+                }
+            }
+        }
+        .awardsContent:nth-child(2n) {
+            flex-direction: row-reverse;
+        }
+    }
+}

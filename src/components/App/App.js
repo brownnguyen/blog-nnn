@@ -11,7 +11,7 @@ import firebase from 'firebase';
 import { db_Config } from '../../firebaseConfig';
 import { connect } from 'react-redux';
 import { CreateAction } from '../../redux/actions/CreateAction';
-import { FETCH__DANCE__REQUEST, FETCH__MAINTOPIC__REQUEST, FETCH__TRAVEL__REQUEST } from '../../redux/types/Types';
+import { FETCH__DATA__REQUEST } from '../../redux/type/Types';
 import ScrollToTop from 'react-router-scroll-top';
 import DanceDetailPage from '../../pages/DanceDetailPage/DanceDetailPage';
 import TravelDetailPage from '../../pages/TravelDetailPage/TravelDetailPage';
@@ -48,9 +48,7 @@ class App extends Component {
     localStore.getIdDance(this.props.dispatch);
     this.database.on('value', snap => {
       console.log(snap.val())
-      this.props.dispatch(CreateAction(FETCH__DANCE__REQUEST, snap.val().danceTopic));
-      this.props.dispatch(CreateAction(FETCH__MAINTOPIC__REQUEST, snap.val().mainTopic));
-      this.props.dispatch(CreateAction(FETCH__TRAVEL__REQUEST, snap.val().travelTopic))
+      this.props.dispatch(CreateAction(FETCH__DATA__REQUEST, snap.val()));
     })
   }
 }

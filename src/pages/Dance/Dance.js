@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import DanceDetail from '../../components/DanceDetail/DanceDetail'
+import ContentDanceAwards from '../../components/ContentDanceAwards/ContentDanceAwards'
 import Discover from '../../components/Discover/Discover'
 export default class Dance extends Component {
     render() {
         return (
             <div>
+                <ContentDanceAwards />
                 <Discover />
-                <DanceDetail/>
             </div>
         )
     }

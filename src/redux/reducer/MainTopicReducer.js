@@ -1,4 +1,4 @@
-import { FETCH__MAINTOPIC__REQUEST } from "../types/Types";
+import { FETCH__DATA__REQUEST } from "../type/Types";
 
 const initialState = {
     mainTopic: {}
@@ -6,8 +6,8 @@ const initialState = {
 export const MainTopicReducer = (state = initialState, action) => {
     let { type, payload } = action;
     switch (type) {
-        case FETCH__MAINTOPIC__REQUEST: {
-            state.mainTopic = { ...payload };
+        case FETCH__DATA__REQUEST: {
+            state.mainTopic = { ...payload.mainTopic };
             return { ...state }
         }
         default: return { ...state }

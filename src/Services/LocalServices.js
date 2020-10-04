@@ -1,5 +1,5 @@
 import { CreateAction } from '../redux/actions/CreateAction';
-import { PUSH__ID__DANCE } from '../redux/types/Types';
+import { PUSH__ID__DANCE } from '../redux/type/Types';
 class LocalStore {
     getIdDance(dispatch) {
         return dispatch => {

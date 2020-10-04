@@ -12,11 +12,11 @@ export default class Home extends Component {
             <>
                 <TopTitle />
                 <Aboutus />
-                <Information />
-                <DancingTeam />
-                <DanceDetail />
                 <TravelMain />
+                <DanceDetail />
+                <DancingTeam />
                 <HomeBlog />
+                <Information />
             </>
         )
     }

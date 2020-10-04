@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import aboutimg from '../../images/img-phanthiet.png';
+import { NavLink } from 'react-router-dom';
 import './Aboutus.scss';
 export default class Aboutus extends Component {
     render() {
@@ -22,6 +23,9 @@ export default class Aboutus extends Component {
                                         <p className="text">
                                             We have the most qualified firefighters in the city. Crew with over 2000 hours.
                                         </p>
+                                        <NavLink to="/" exact className="link-aboutus">
+                                            Portfolio
+                                        </NavLink>
                                     </div>
                                     <div className="details-block">
                                         <i className="fab fa-battle-net about-icon"></i>
@@ -29,6 +33,9 @@ export default class Aboutus extends Component {
                                         <p className="text">
                                             Alert situations? We have a special emergency line to communicate with our department.
                                         </p>
+                                        <NavLink to="/" exact className="link-aboutus">
+                                            Xem thêm
+                                        </NavLink>
                                     </div>
                                 </div>
                             </div>

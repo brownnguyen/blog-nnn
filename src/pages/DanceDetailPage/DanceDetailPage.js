@@ -10,7 +10,7 @@ class DanceDetailPage extends Component {
             xhtml = listDance[position].images?.map((item, index) => {
                 return (
                     <div className="img" key={index} >
-                        <img src={item.img} />
+                        <img src={item.img} alt="bboy" />
                     </div>
                 )
             })
