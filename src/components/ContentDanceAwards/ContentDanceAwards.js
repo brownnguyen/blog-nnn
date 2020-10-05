@@ -46,9 +46,15 @@ class ContentDanceAwards extends Component {
         };
         return (
             <section className="ContentDanceAwards">
-                <Slider {...settings}>
-                    {this.renderInfoDance()}
-                </Slider>
+                <div className="contentSlide">
+                    <h2 className="title">
+                        Bboy <br />
+                    Since 2009
+                    </h2>
+                    <Slider {...settings}>
+                        {this.renderInfoDance()}
+                    </Slider>
+                </div>
                 <div className="box">
                     <div className="mainContentAwards">
                         {this.renderDanceAwards()}
