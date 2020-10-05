@@ -32,6 +32,11 @@ export default class Information extends Component {
                             </h4>
                         </div>
                         {this.renderDiv()}
+                        <div className="color-6">
+                            <h4 className="name">
+                                Have a good day!
+                            </h4>
+                        </div>
                     </div>
                 </div>
             </section>

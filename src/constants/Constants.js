@@ -12,6 +12,10 @@ export const header = [
         "to": "dance"
     },
     {
+        "title": "phoneshoot",
+        "to": "phoneshoot"
+    },
+    {
         "title": "blog",
         "to": "blog"
     },
@@ -26,5 +30,4 @@ export const inforContent = [
     { title: 'blog', img: './images/info/img-info-13.jpg' },
     { title: 'about', img: './images/info/img-info-15.jpg' },
     { title: 'crew', img: './images/info/img-info-14.jpg' },
-    { title: 'awards', img: './images/info/img-info-16.jpg' }
 ]

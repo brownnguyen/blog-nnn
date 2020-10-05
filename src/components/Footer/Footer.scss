@@ -1,0 +1,39 @@
+@import "../../Scss/Variables.scss";
+footer.footer {
+  background-color: $blue;
+  margin-top: 50px;
+  h3.footer-title {
+    margin: 0;
+  }
+  .footer-content {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .footer-link {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .link {
+        i {
+          font-size: 3rem;
+          color: $white;
+          margin: 0 10px;
+          transition: $eo;
+        }
+        &:hover {
+          i {
+            background: linear-gradient(to bottom, #ef2368, purple);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+      }
+    }
+    .center-text{
+      color: rgba(255, 255, 255, 0.4);
+      font-weight: 300;
+      font-size: 1.4rem;
+    }
+  }
+}

@@ -70,7 +70,7 @@
           opacity: 1;
         }
         img {
-          transform: scale(1.5);
+          transform: scale(1.2);
         }
       }
       img {
@@ -78,24 +78,17 @@
         top: 0;
         left: 0;
         z-index: -1;
-        transition: 5s ease-in-out;
+        transition: $eo;
       }
     }
-    // .color-1 {
-    //   background-color: $green;
-    // }
-    // .color-2 {
-    //   background-color: $green-1;
-    // }
-    // .color-3 {
-    //   background-color: $green-3;
-    // }
-    // .color-4 {
-    //   background-color: $green-2;
-    // }
-    // .color-5,
-    // .color-6 {
-    //   background-color: $orange;
-    // }
+    .color-6 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to bottom, $pink, $purple, $blue);
+      h4.name{
+        color: white;
+      }
+    }
   }
 }

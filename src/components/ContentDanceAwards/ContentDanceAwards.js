@@ -24,9 +24,15 @@ class ContentDanceAwards extends Component {
                         <img src={item.img} alt={item.title} />
                     </div>
                     <div className="content awardsText">
-                        <h4 className="title">
-                            {item.title}
-                        </h4>
+                        <div className="awardsMainText">
+                            <h4 className="title">
+                                {item.title}
+                            </h4>
+                            <p className="year">{item.year}</p>
+                            <p className="prize">Thời gian: {item.year}</p>
+                            <p className="prize">Thành tích: {item.prize}</p>
+                            <p className="prize">Địa điểm thi đấu: {item.location}</p>
+                        </div>
                     </div>
                 </div>
             )
@@ -46,17 +52,20 @@ class ContentDanceAwards extends Component {
         };
         return (
             <section className="ContentDanceAwards">
-                <div className="contentSlide">
-                    <h2 className="title">
-                        Bboy <br />
-                    Since 2009
-                    </h2>
+                <div className="sliderAwards">
+                    <h3 className="titleMe">
+                        BBOY <br />
+                        SINCE 2009
+                    </h3>
                     <Slider {...settings}>
                         {this.renderInfoDance()}
                     </Slider>
                 </div>
                 <div className="box">
                     <div className="mainContentAwards">
+                        <h3 className="title">
+                            Some representative awards I and teams have got <br /> during years working on dancing.
+                        </h3>
                         {this.renderDanceAwards()}
                     </div>
                 </div>

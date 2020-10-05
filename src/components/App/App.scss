@@ -15,6 +15,7 @@ html {
 a {
   text-decoration: none;
   color: $black;
+  outline: none;
 }
 .box {
   max-width: 1120px;
@@ -29,9 +30,8 @@ h3.title {
   font-size: 5.6rem;
   text-transform: uppercase;
   font-family: "Barlow Condensed", sans-serif;
-  color: $red;
   margin: 20px 0;
-  background: linear-gradient(to bottom, #ef2368, purple);
+  background: linear-gradient(to bottom, $pink, $purple);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
