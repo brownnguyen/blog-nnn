@@ -12,6 +12,10 @@ export const header = [
         "to": "dance"
     },
     {
+        "title": "phoneshoot",
+        "to": "phoneshoot"
+    },
+    {
         "title": "blog",
         "to": "blog"
     },
@@ -27,4 +31,18 @@ export const inforContent = [
     { title: 'about', img: './images/info/img-info-15.jpg' },
     { title: 'crew', img: './images/info/img-info-14.jpg' },
     { title: 'awards', img: './images/info/img-info-16.jpg' }
+]
+export const linkIcon = [
+    {
+        title: "facebook",
+        img: "./images/icon/icon-facebook.png"
+    },
+    {
+        title: "git",
+        img: "./images/icon/icon-git.jpg"
+    },
+    {
+        title: "instagram",
+        img: "./images/icon/icon-instagram.png"
+    }
 ]

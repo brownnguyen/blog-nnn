@@ -286,38 +286,84 @@
     "danceAwards": [
         {
             "id": "award01",
-            "title": "Award content 01",
-            "img": "./images/Danceawards/img-award-01.jpg"
+            "prize": "Hạng 02",
+            "title": "G-wave Hispop Championship",
+            "year": "2014",
+            "type": " 4 vs 4",
+            "img": "./images/Danceawards/img-award-01.jpg",
+            "location": "Nhà văn hóa Thanh viên, quận 1, Tp. Hồ Chí Minh"
         },
         {
-            "id": "award01",
-            "title": "Award content 02",
-            "img": "./images/Danceawards/img-award-02.jpg"
+            "id": "award02",
+            "prize": "Hạng 01",
+            "title": "Dynamic Kingz",
+            "year": "2014",
+            "type": " 3 vs 3",
+            "img": "./images/Danceawards/img-award-02.jpg",
+            "location": "Studio của Real Dynamic Kingz Đường Thành Thái quận 10, Tp.Hồ Chí Minh"
         },
         {
-            "id": "award01",
-            "title": "Award content 03",
-            "img": "./images/Danceawards/img-award-03.jpg"
+            "id": "award03",
+            "prize": "Hạng 01 miền Nam , Hạng 02 toàn quốc",
+            "title": "Nhảy đối Kháng VUG các trường đại học",
+            "year": "2014",
+            "type": "crew vs crew",
+            "img": "./images/Danceawards/img-award-03.jpg",
+            "location": "Nhà thi đấu Tân Bình quận Tân Bình , Tp.Hồ Chí Minh"
         },
         {
-            "id": "award01",
-            "title": "Award content 05",
-            "img": "./images/Danceawards/img-award-05.jpg"
+            "id": "award05",
+            "prize": "Hạng 02",
+            "title": "FiveStyle",
+            "year": "2014",
+            "type": "2 vs 2",
+            "img": "./images/Danceawards/img-award-05.jpg",
+            "location": "Nhà thi đấu trường đại học Đà Lạt, Đà Lạt"
         },
         {
-            "id": "award01",
-            "title": "Award content 06",
-            "img": "./images/Danceawards/img-award-06.jpg"
+            "id": "award06",
+            "prize": "Hạng 03",
+            "title": "Yamaha King of Streetz",
+            "year": "2015",
+            "type": "3 vs 3",
+            "img": "./images/Danceawards/img-award-06.jpg",
+            "location": "Nhà thi đấu Tân Bình quận Tân Bình , Tp.Hồ Chí Minh"
         },
         {
-            "id": "award01",
-            "title": "Award content 07",
-            "img": "./images/Danceawards/img-award-07.jpg"
+            "id": "award07",
+            "prize": "Hạng 02",
+            "title": "HipFest - Let me see your move",
+            "year": "2015",
+            "type": "5 vs 5",
+            "img": "./images/Danceawards/img-award-07.jpg",
+            "location": "Cresent Mall quận 7, Tp. Hồ Chí Minh"
         },
         {
-            "id": "award01",
-            "title": "Award content 08",
-            "img": "./images/Danceawards/img-award-08.jpg"
+            "id": "award08",
+            "prize": "Hạng 03",
+            "title": "Southside Rockerz Jam",
+            "type":"2 vs 2",
+            "year": "2016",
+            "img": "./images/Danceawards/img-award-08.jpg",
+            "location": "Trung tâm văn hóa thành phố Dĩ An, Dĩ An,tỉnh Bình Dương"
+        },
+        {
+            "id": "award09",
+            "prize": "Hạng 01",
+            "title": "Wild Kidz Jam",
+            "type": "2 vs 2",
+            "year": "2016",
+            "img": "./images/Danceawards/img-award-09.png",
+            "location": "Chợ Xuân Dĩ An, Dĩ An, Bình Dương"
+        },
+        {
+            "id": "award10",
+            "prize": "Hạng 02",
+            "title": "High No Jam",
+            "type":"2 vs 2",
+            "year": "2019",
+            "img": "./images/Danceawards/img-award-10.jpg",
+            "location": "Hố Nai,tỉnh Đồng Nai"
         }
     ]
 }

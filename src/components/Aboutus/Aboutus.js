@@ -33,7 +33,7 @@ export default class Aboutus extends Component {
                                         <p className="text">
                                             Alert situations? We have a special emergency line to communicate with our department.
                                         </p>
-                                        <NavLink to="/" exact className="link-aboutus">
+                                        <NavLink to="/dance" exact className="link-aboutus">
                                             Xem thêm
                                         </NavLink>
                                     </div>

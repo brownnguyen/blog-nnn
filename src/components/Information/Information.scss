@@ -70,7 +70,7 @@
           opacity: 1;
         }
         img {
-          transform: scale(1.5);
+          transform: scale(1.2);
         }
       }
       img {
@@ -78,7 +78,7 @@
         top: 0;
         left: 0;
         z-index: -1;
-        transition: 5s ease-in-out;
+        transition: $eo;
       }
     }
     // .color-1 {
