@@ -23,7 +23,6 @@ class TravelContent extends Component {
     render() {
         return (
             <section className="travelTopic">
-                {console.log(this.arr.includes({"id":437, name:"John"}))}
                 <div className="box">
                     <div className="travel-content">
                         {this.renderTravelContent()}

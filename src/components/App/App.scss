@@ -52,24 +52,23 @@ p.text {
   width: 100%;
   max-width: 280px;
   font-weight: bold;
-  border: 2px solid $green-1;
   position: relative;
   transition: $eo;
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    z-index: -1;
-    background-color: $green-1;
-    transition: $eo;
-  }
+  // &:before {
+  //   content: "";
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 0%;
+  //   height: 100%;
+  //   z-index: -1;
+  //   background-color: $green-1;
+  //   transition: $eo;
+  // }
   &:hover {
     color: $white;
-    &:before {
-      width: 100%;
-    }
+    // &:before {
+    //   width: 100%;
+    // }
   }
 }

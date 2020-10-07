@@ -17,7 +17,9 @@ class DancingTeam extends Component {
                         to={`/detaildance/${item.id}`}
                         key={index}
                         className="content">
-                        <img src={item.img} alt={item.subject} />
+                        <div className="img">
+                            <img src={item.img} alt={item.subject} />
+                        </div>
                         <p className="text">{item.details}</p>
                     </NavLink>
                 )

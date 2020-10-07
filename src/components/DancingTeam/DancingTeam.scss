@@ -9,6 +9,13 @@
   }
   .content {
     width: 50%;
+    .img{
+      overflow: hidden;
+      img {
+        transition: $eo;
+      }
+    }
+    
     .text {
       float: right;
       margin-right: 30px;
@@ -20,6 +27,15 @@
       background-color: $green;
       color: rgba(255, 255, 255, 0.4);
       box-shadow: 5px 6px 16px -5px rgba(0, 0, 0, 0.75);
+      transition: $eo;
+    }
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+      .text{
+        transform: translateY(-100%);
+      }
     }
   }
 }
