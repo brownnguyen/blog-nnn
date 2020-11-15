@@ -12,6 +12,19 @@ body {
 html {
   font-size: 10px;
 }
+input,
+textarea,
+button {
+  outline: none;
+  border-radius: 0;
+  border: 1px solid $grey;
+  color: $grey-1;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  &::placeholder {
+    color: $grey-75;
+  }
+}
 a {
   text-decoration: none;
   color: $black;
@@ -54,21 +67,7 @@ p.text {
   font-weight: bold;
   position: relative;
   transition: $eo;
-  // &:before {
-  //   content: "";
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   width: 0%;
-  //   height: 100%;
-  //   z-index: -1;
-  //   background-color: $green-1;
-  //   transition: $eo;
-  // }
   &:hover {
     color: $white;
-    // &:before {
-    //   width: 100%;
-    // }
   }
 }

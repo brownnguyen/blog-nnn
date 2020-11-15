@@ -1,0 +1,43 @@
+@import "../../Scss/Variables.scss";
+
+.contact {
+    margin-top: 50px;
+    .title {
+        text-align: center;
+    }
+    .text{
+        max-width: 1120px;
+        margin: auto;
+    }
+    padding: 100px 0;
+    background-color: $blue;
+    .contact-content {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        .input-contact {
+            width: 31%;
+            padding: 15px;
+            font-size: 1.6rem;
+        }
+    }
+    .contact-textArea {
+        margin-top: 30px;
+        padding: 20px;
+        width: 100%;
+        min-height: 300px;
+        font-size: 1.6rem;
+    }
+    .button-contact {
+        margin-top: 30px;
+        font-size: 1.6rem;
+        width: 100%;
+        padding: 15px;
+        transition: $eo;
+        cursor: pointer;
+        text-transform: uppercase;
+        &:hover {
+            color: $white;
+        }
+    }
+}

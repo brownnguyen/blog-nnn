@@ -3,6 +3,9 @@ import aboutimg from '../../images/img-phanthiet.png';
 import { NavLink } from 'react-router-dom';
 import './Aboutus.scss';
 export default class Aboutus extends Component {
+    constructor(props){
+        super(props)
+    }
     render() {
         return (
             <section className="aboutus">

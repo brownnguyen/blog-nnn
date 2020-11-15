@@ -1,7 +1,7 @@
 @import "../../Scss/Variables.scss";
 footer.footer {
   background-color: $blue;
-  margin-top: 50px;
+  border-top: 1px solid $grey-1;
   h3.footer-title {
     margin: 0;
   }

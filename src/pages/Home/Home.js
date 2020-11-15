@@ -6,6 +6,7 @@ import TopTitle from '../../components/TopTitle/TopTitle'
 import DanceDetail from '../../components/DanceDetail/DanceDetail'
 import TravelMain from '../../components/TravelMain/TravelMain'
 import HomeBlog from '../../components/HomeBlog/HomeBlog'
+import Contact from '../../components/Contact/Contact'
 export default class Home extends Component {
     render() {
         return (
@@ -17,6 +18,7 @@ export default class Home extends Component {
                 <DancingTeam />
                 <HomeBlog />
                 <Information />
+                <Contact/>
             </>
         )
     }
